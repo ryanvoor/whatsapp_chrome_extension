@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "WhatsApp Chat Buffer",
+    "version": "1.0",
+    "description": "Inserts a buffer below the chats on vertical monitors for ergonomic purposes.",
+    "content_scripts": [ {
+        "matches": ["https://web.whatsapp.com/*"],
+        "js": ["content.js"]
+    } ]
+}
